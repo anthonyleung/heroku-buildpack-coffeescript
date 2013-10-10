@@ -183,4 +183,4 @@ mkdir -p $BUILD_DIR/.profile.d
 echo "export PATH=\"\$HOME/bin:\$HOME/node_modules/.bin:\$PATH\"" > $BUILD_DIR/.profile.d/nodejs.sh
 
 # copy from app/templates to target directory
-cp -r $BUILD_DIR/app/ $BUILD_DIR/target/
+cp -r $BUILD_DIR/app/* $BUILD_DIR/target
